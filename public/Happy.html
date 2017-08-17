@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="./main.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="sidebar">
+            <div>
+                <a href="https://support.butterfly.ai/"><img src="./Assets/Butterfly.svg" alt="Logo" id="logo-image" /></a>
+            </div>
+            <a href="https://support.butterfly.ai/"><img id="info" src="./Assets/InfoIcon.svg" alt="Info" /><a>
+        </div>
+        <div>
+            <div id="main">
+                <h1 id="company">Butterfly, Inc.</h1>
+                <div class="header toReplace">
+                    <div id="edit">
+                        <img id="edit-icon" src="./Assets/EditIcon.svg">
+                    </div>
+                    <div>
+                        <img class="veryhappy" id="emoticon" src="./Assets/Happy.svg">
+                    </div>
+                        <div id="heading">
+                            <h3 id="thanks">Great! Thanks for your feedback!</h3>
+                            <span>
+                                <h5>Your answers will</h5>
+                                <h5 id="highlight">always remain anonymous</h5>
+                            </span>
+                    </div>
+                </div>
+                <div id='mistake' class="toReplace"><h3>Did you make a mistake? Please select your current mood:</h3>
+                    <a href="?v=5"><img class="emoticons" id="veryHappy" src="./Assets/VeryHappy.svg" height="64px" width="64px"></a>
+            <a href="?v=4"><img class="emoticons" id="Happy" src="./Assets/Happy.svg" height="64px" width="64px"></a>
+            <a href="?v=3"><img class="emoticons" id="Neutral" src="./Assets/Neutral.svg" height="64px" width="64px"></a>
+            <a href="?v=2"><img class="emoticons" id="Unhappy" src="./Assets/Unhappy.svg" height="64px" width="64px"></a>
+            <a href="?v=1"><img class="emoticons" id="veryUnhappy" src="./Assets/VeryUnhappy.svg" height="64px" width="64px"></a>
+        </div>
+
+        <form>
+            <h3>Do you agree with the following statements:</h3>
+            <div class="question">
+                <h4 id="question1"></h4>
+            </div>
+            <div class="questionBox">
+                <div class="stars">
+                    <img class="starComment1 star1" src="./Assets/StarIcon.svg">
+                    <img class="star starComment1 star2" src="./Assets/StarIcon.svg">
+                    <img class="star star3" src="./Assets/StarIcon.svg">
+                    <img class="star star4" src="./Assets/StarIcon.svg">
+                    <img class="star star5" src="./Assets/StarIcon.svg">
+                </div>
+                <div class="agree">
+                    <h6>Strongly diagree</h6>
+                    <h6 class="strongly">Strongly agree</h6>
+                </div>
+                <h2 class="comment1 showComment1">Add comment</h2>
+                <textarea id='suggestion' class='showComment1' placeholder='Anything to suggest to your manager?'></textarea>
+            </div>
+            <div class="question">
+                <h4 id="question2"></h4>
+            </div>
+            <div class="questionBox">
+                <div class="stars">
+                    <img class="star1 starComment2" src="./Assets/StarIcon.svg">
+                    <img class="star2 star starComment2" src="./Assets/StarIcon.svg">
+                    <img class="star star3" src="./Assets/StarIcon.svg">
+                    <img class="star star4" src="./Assets/StarIcon.svg">
+                    <img class="star star5" src="./Assets/StarIcon.svg">
+                </div>
+                <div class="agree">
+                    <h6>Strongly diagree</h6>
+                    <h6 class="strongly">Strongly agree</h6>
+                </div>
+                <h2 class="comment2 showComment">Add comment</h2>
+                <textarea id='suggestion' class='showComment' placeholder='Anything to suggest to your manager?'></textarea>
+            </div>
+            <div class="question">
+                <h4 id="question3"></h4>
+            </div>
+            <div class="questionBox">
+                <div class="stars">
+                    <img class="star1 starComment3" src="./Assets/StarIcon.svg">
+                    <img class="star2 star starComment3" src="./Assets/StarIcon.svg">
+                    <img class="star star3" src="./Assets/StarIcon.svg">
+                    <img class="star star4" src="./Assets/StarIcon.svg">
+                    <img class="star star5" src="./Assets/StarIcon.svg">
+                </div>
+                <div class="agree">
+                    <h6>Strongly diagree</h6>
+                    <h6 class="strongly">Strongly agree</h6>
+                </div>
+                <h2 class="comment3">Add comment</h2>
+            </div>
+
+            <div class="question">
+                <h4 id="question4"></h4>
+            </div>
+            <div class="questionBox">
+                <div class="stars">
+                    <img class="star1 starComment4" src="./Assets/StarIcon.svg">
+                    <img class="star2 star starComment4" src="./Assets/StarIcon.svg">
+                    <img class="star star3" src="./Assets/StarIcon.svg">
+                    <img class="star star4" src="./Assets/StarIcon.svg">
+                    <img class="star star5" src="./Assets/StarIcon.svg">
+                </div>
+                <div class="agree">
+                    <h6>Strongly diagree</h6>
+                    <h6 class="strongly">Strongly agree</h6>
+                </div>
+                <h2 class="comment4">Add comment</h2>
+            </div>
+            <div class="question">
+                <h4 id="question5"></h4>
+            </div>
+            <div class="questionBox">
+                <div class="stars">
+                    <img class="star1 starComment5" src="./Assets/StarIcon.svg">
+                    <img class="star2 star starComment5" src="./Assets/StarIcon.svg">
+                    <img class="star star3" src="./Assets/StarIcon.svg">
+                    <img class="star star4" src="./Assets/StarIcon.svg">
+                    <img class="star star5" src="./Assets/StarIcon.svg">
+                </div>
+                <div class="agree">
+                    <h6>Strongly diagree</h6>
+                    <h6 class="strongly">Strongly agree</h6>
+                </div>
+                <h2 class="comment5">Add comment</h2>
+            </div>
+            <div id="add">
+                <div id="extra">Extra Feedback Helps</div>
+                <h4>Anything to add?</h4>
+
+                <textarea id="textarea" type="textarea" placeholder="Express yourself freely and safely. This will always remain anonymous."></textarea>
+
+            </div>
+        </form>
+        <button>Send answers</button>
+    </div>
+    </div>
+    <script>
+        var questions = [
+            "I feel like I have a healthy work/life balance.",
+            "I feel comfortable working and interacting with the colleagues on my team.",
+            "I am satisfied with my roles and responsibilities.",
+            "I like my work environment, and I believe it helps me perform at my best.",
+            "My direct manager gives me necessary support and clear objectives.",
+        ]
+        function shuffleArray(array) {
+            for (var i = array.length - 1; i > 0; i--) {
+                var j = Math.floor(Math.random() * (i + 1));
+                var temp = array[i];
+                array[i] = array[j];
+                array[j] = temp;
+            }
+            return array;
+        }
+        shuffleArray(questions)
+        for (var i = 0; i < questions.length; i++) {
+            var questionNum = "question" + (i + 1).toString()
+            document.getElementById(questionNum).innerHTML = questions[i]
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="
+        crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    <script src="nunjucks.js"></script>
+</body>
+
+</html>
