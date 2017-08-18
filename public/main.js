@@ -15,7 +15,7 @@ $(document).ready(function () {
     });
 
 
-    //********SHOW COMMENT BOX ON STAR1 STAR2 CLICK EVENTS***********//
+    //********SHOW COMMENT BOX ON STAR1 STAR2 CLICK EVENTS**********************//
 
     $(".starComment1").click(function () {
         if (!$(this).parent().hasClass("selected") && !$(this).parent().parent().hasClass("commentClicked")) {
@@ -246,15 +246,15 @@ $(document).ready(function () {
                 "background-color": "#FA425D",
                 "border-radius": "50%",
                 "border": "10px solid #FA425D",
-                "margin-left": "23px",
-                "margin-right": "23px"
+                "margin-left": "5.2%",
+                "margin-right": "5.2%"
             })
             if ($(this).siblings(".clicked")) {
                 $(this).siblings(".clicked").css({
                     "border": "none",
                     "background": "none",
-                    "margin-left": "33px",
-                    "margin-right": "33px"
+                    "margin-left": "7.5%",
+                    "margin-right": "7.5%"
                 })
                 $(this).parent().css({
                     "background": "#D7D7D7"
@@ -267,8 +267,8 @@ $(document).ready(function () {
                 $(this).css({
                     "background": "none",
                     "border": "none",
-                    "margin-left": "33px",
-                    "margin-right": "33px"
+                    "margin-left": "7.5%",
+                    "margin-right": "7.5%"
                 })
             if ($(this).siblings(".clicked") && !$(this).hasClass("clicked")) {
                 if ($(".star1").hasClass("clicked")) {
@@ -276,16 +276,16 @@ $(document).ready(function () {
                         "background-color": "#FA425D",
                         "border-radius": "50%",
                         "border": "10px solid #FA425D",
-                        "margin-left": "23px",
-                        "margin-right": "23px"
+                        "margin-left": "5.2%",
+                        "margin-right": "5.2%"
                     })
                 } else {
                     $(this).siblings(".clicked").css({
                         "background-color": "#008491",
                         "border-radius": "50%",
                         "border": "10px solid #008491",
-                        "margin-left": "23px",
-                        "margin-right": "23px"
+                        "margin-left": "5.2%",
+                        "margin-right": "5.2%"
                     })
                     if ($(".star2").hasClass("clicked")) {
                         $(this).parent().css({
@@ -319,8 +319,8 @@ $(document).ready(function () {
                 "background-color": "#008491",
                 "border-radius": "50%",
                 "border": "10px solid #008491",
-                "margin-left": "23px",
-                "margin-right": "23px"
+                "margin-left": "5.2%",
+                "margin-right": "5.2%"
             })
             $(this).parent().css({
                 "background": "linear-gradient(90deg, #FF7A65 30%,#D7D7D7 0%,#D7D7D7 0%,#D7D7D7 0%)"
@@ -329,8 +329,8 @@ $(document).ready(function () {
                 $(this).siblings(".clicked").css({
                     "border": "none",
                     "background": "none",
-                    "margin-left": "33px",
-                    "margin-right": "33px"
+                    "margin-left": "7.5%",
+                    "margin-right": "7.5%"
                 })
             }
         }
@@ -340,8 +340,8 @@ $(document).ready(function () {
                 $(this).css({
                     "background": "none",
                     "border": "none",
-                    "margin-left": "33px",
-                    "margin-right": "33px"
+                    "margin-left": "7.5%",
+                    "margin-right": "7.5%"
                 })
             }
             $(this).parent().css({
@@ -353,16 +353,16 @@ $(document).ready(function () {
                         "background-color": "#FA425D",
                         "border-radius": "50%",
                         "border": "10px solid #FA425D",
-                        "margin-left": "23px",
-                        "margin-right": "23px"
+                        "margin-left": "5.2%",
+                        "margin-right": "5.2%"
                     })
                 } else {
                     $(this).siblings(".clicked").css({
                         "background-color": "#008491",
                         "border-radius": "50%",
                         "border": "10px solid #008491",
-                        "margin-left": "23px",
-                        "margin-right": "23px"
+                        "margin-left": "5.2%",
+                        "margin-right": "5.2%"
                     })
                     if ($(".star3").hasClass("clicked")) {
                         $(this).parent().css({
@@ -391,8 +391,8 @@ $(document).ready(function () {
                 "background-color": "#008491",
                 "border-radius": "50%",
                 "border": "10px solid #008491",
-                "margin-left": "23px",
-                "margin-right": "23px"
+                "margin-left": "5.2%",
+                "margin-right": "5.2%"
             })
             $(this).parent().css({
                 "background": "linear-gradient(90deg,#FF9D4F 50%,#D7D7D7 0%,#D7D7D7 0%,#D7D7D7 0%)"
@@ -401,8 +401,8 @@ $(document).ready(function () {
                 $(this).siblings(".clicked").css({
                     "border": "none",
                     "background": "none",
-                    "margin-left": "33px",
-                    "margin-right": "33px"
+                    "margin-left": "7.5%",
+                    "margin-right": "7.5%"
                 })
             }
 
@@ -413,8 +413,8 @@ $(document).ready(function () {
                 $(this).css({
                     "background": "none",
                     "border": "none",
-                    "margin-left": "33px",
-                    "margin-right": "33px"
+                    "margin-left": "7.5%",
+                    "margin-right": "7.5%"
                 })
             }
             $(this).parent().css({
@@ -426,16 +426,16 @@ $(document).ready(function () {
                         "background-color": "#FA425D",
                         "border-radius": "50%",
                         "border": "10px solid #FA425D",
-                        "margin-left": "23px",
-                        "margin-right": "23px"
+                        "margin-left": "5.2%",
+                        "margin-right": "5.2%"
                     })
                 } else {
                     $(this).siblings(".clicked").css({
                         "background-color": "#008491",
                         "border-radius": "50%",
                         "border": "10px solid #008491",
-                        "margin-left": "23px",
-                        "margin-right": "23px"
+                        "margin-left": "5.2%",
+                        "margin-right": "5.2%"
                     })
                     if ($(".star2").hasClass("clicked")) {
                         $(this).parent().css({
@@ -464,8 +464,8 @@ $(document).ready(function () {
                 "background-color": "#008491",
                 "border-radius": "50%",
                 "border": "10px solid #008491",
-                "margin-left": "23px",
-                "margin-right": "23px"
+                "margin-left": "5.2%",
+                "margin-right": "5.2%"
 
             })
             $(this).parent().css({
@@ -475,8 +475,8 @@ $(document).ready(function () {
                 $(this).siblings(".clicked").css({
                     "border": "none",
                     "background": "none",
-                    "margin-left": "33px",
-                    "margin-right": "33px"
+                    "margin-left": "7.5%",
+                    "margin-right": "7.5%"
                 })
             }
         }
@@ -486,8 +486,8 @@ $(document).ready(function () {
                 $(this).css({
                     "background": "none",
                     "border": "none",
-                    "margin-left": "33px",
-                    "margin-right": "33px"
+                    "margin-left": "7.5%",
+                    "margin-right": "7.5%"
                 })
             }
             $(this).parent().css({
@@ -499,16 +499,16 @@ $(document).ready(function () {
                         "background-color": "#FA425D",
                         "border-radius": "50%",
                         "border": "10px solid #FA425D",
-                        "margin-left": "23px",
-                        "margin-right": "23px"
+                        "margin-left": "5.2%",
+                        "margin-right": "5.2%"
                     })
                 } else if ($(this).siblings("clicked")) {
                     $(this).siblings(".clicked").css({
                         "background-color": "#008491",
                         "border-radius": "50%",
                         "border": "10px solid #008491",
-                        "margin-left": "23px",
-                        "margin-right": "23px"
+                        "margin-left": "5.2%",
+                        "margin-right": "5.2%"
                     })
                     if ($(".star2").hasClass("clicked")) {
                         $(this).parent().css({
@@ -537,8 +537,8 @@ $(document).ready(function () {
                 "background-color": "#008491",
                 "border-radius": "50%",
                 "border": "10px solid #008491",
-                "margin-left": "23px",
-                "margin-right": "23px"
+                "margin-left": "5.2%",
+                "margin-right": "5.2%"
             })
             $(this).parent().css({
                 "background": "linear-gradient(90deg, #FFE100 100%, #D7D7D7 0%,#D7D7D7 0%,#D7D7D7 0%)"
@@ -547,8 +547,8 @@ $(document).ready(function () {
                 $(this).siblings(".clicked").css({
                     "border": "none",
                     "background": "none",
-                    "margin-left": "33px",
-                    "margin-right": "33px"
+                    "margin-left": "7.5%",
+                    "margin-right": "7.5%"
                 })
             }
 
@@ -559,8 +559,8 @@ $(document).ready(function () {
                 $(this).css({
                     "background": "none",
                     "border": "none",
-                    "margin-left": "33px",
-                    "margin-right": "33px"
+                    "margin-left": "7.5%",
+                    "margin-right": "7.5%"
                 })
             }
             $(this).parent().css({
@@ -572,16 +572,16 @@ $(document).ready(function () {
                         "background-color": "#FA425D",
                         "border-radius": "50%",
                         "border": "10px solid #FA425D",
-                        "margin-left": "23px",
-                        "margin-right": "23px"
+                        "margin-left": "5.2%",
+                        "margin-right": "5.2%"
                     })
                 } else {
                     $(this).siblings(".clicked").css({
                         "background-color": "#008491",
                         "border-radius": "50%",
                         "border": "10px solid #008491",
-                        "margin-left": "23px",
-                        "margin-right": "23px"
+                        "margin-left": "5.2%",
+                        "margin-right": "5.2%"
                     })
                     if ($(".star2").hasClass("clicked")) {
                         $(this).parent().css({
@@ -609,8 +609,8 @@ $(document).ready(function () {
                 "background-color": "#008491",
                 "border-radius": "50%",
                 "border": "10px solid #008491",
-                "margin-left": "23px",
-                "margin-right": "23px"
+                "margin-left": "5.2%",
+                "margin-right": "5.2%"
             })
             $(this).parent().css({
                 "background": "linear-gradient(90deg, #FFE100 100%, #D7D7D7 0%,#D7D7D7 0%,#D7D7D7 0%)"
@@ -619,8 +619,8 @@ $(document).ready(function () {
                 $(this).siblings(".clicked").css({
                     "border": "none",
                     "background": "none",
-                    "margin-left": "33px",
-                    "margin-right": "33px"
+                    "margin-left": "7.5%",
+                    "margin-right": "7.5%"
                 })
             }
 
@@ -631,8 +631,8 @@ $(document).ready(function () {
                 $(this).css({
                     "background": "none",
                     "border": "none",
-                    "margin-left": "33px",
-                    "margin-right": "33px"
+                    "margin-left": "7.5%",
+                    "margin-right": "7.5%"
                 })
             }
             $(this).parent().css({
@@ -644,16 +644,16 @@ $(document).ready(function () {
                         "background-color": "#FA425D",
                         "border-radius": "50%",
                         "border": "10px solid #FA425D",
-                        "margin-left": "23px",
-                        "margin-right": "23px"
+                        "margin-left": "5.2%",
+                        "margin-right": "5.2%"
                     })
                 } else {
                     $(this).siblings(".clicked").css({
                         "background-color": "#008491",
                         "border-radius": "50%",
                         "border": "10px solid #008491",
-                        "margin-left": "23px",
-                        "margin-right": "23px"
+                        "margin-left": "5.2%",
+                        "margin-right": "5.2%"
                     })
                     if ($(".star2").hasClass("clicked")) {
                         $(this).parent().css({
@@ -681,15 +681,15 @@ $(document).ready(function () {
                 "background-color": "#FA425D",
                 "border-radius": "50%",
                 "border": "10px solid #FA425D",
-                "margin-left": "23px",
-                "margin-right": "23px"
+                "margin-left": "5.2%",
+                "margin-right": "5.2%"
             })
             if ($(this).siblings(".clicked")) {
                 $(this).siblings(".clicked").css({
                     "border": "none",
                     "background": "none",
-                    "margin-left": "33px",
-                    "margin-right": "33px"
+                    "margin-left": "7.5%",
+                    "margin-right": "7.5%"
                 })
                 $(this).parent().css({
                     "background": "#D7D7D7"
@@ -702,8 +702,8 @@ $(document).ready(function () {
                 $(this).css({
                     "background": "none",
                     "border": "none",
-                    "margin-left": "33px",
-                    "margin-right": "33px"
+                    "margin-left": "7.5%",
+                    "margin-right": "7.5%"
                 })
             if ($(this).siblings(".clicked") && !$(this).hasClass("clicked")) {
                 if ($(".star6").hasClass("clicked")) {
@@ -711,16 +711,16 @@ $(document).ready(function () {
                         "background-color": "#FA425D",
                         "border-radius": "50%",
                         "border": "10px solid #FA425D",
-                        "margin-left": "23px",
-                        "margin-right": "23px"
+                        "margin-left": "5.2%",
+                        "margin-right": "5.2%"
                     })
                 } else {
                     $(this).siblings(".clicked").css({
                         "background-color": "#008491",
                         "border-radius": "50%",
                         "border": "10px solid #008491",
-                        "margin-left": "23px",
-                        "margin-right": "23px"
+                        "margin-left": "5.2%",
+                        "margin-right": "5.2%"
                     })
                     if ($(".star7").hasClass("clicked")) {
                         $(this).parent().css({
@@ -754,8 +754,8 @@ $(document).ready(function () {
                 "background-color": "#008491",
                 "border-radius": "50%",
                 "border": "10px solid #008491",
-                "margin-left": "23px",
-                "margin-right": "23px"
+                "margin-left": "5.2%",
+                "margin-right": "5.2%"
             })
             $(this).parent().css({
                 "background": "linear-gradient(90deg, #FF7A65 30%,#D7D7D7 0%,#D7D7D7 0%,#D7D7D7 0%)"
@@ -764,8 +764,8 @@ $(document).ready(function () {
                 $(this).siblings(".clicked").css({
                     "border": "none",
                     "background": "none",
-                    "margin-left": "33px",
-                    "margin-right": "33px"
+                    "margin-left": "7.5%",
+                    "margin-right": "7.5%"
                 })
             }
         }
@@ -775,8 +775,8 @@ $(document).ready(function () {
                 $(this).css({
                     "background": "none",
                     "border": "none",
-                    "margin-left": "33px",
-                    "margin-right": "33px"
+                    "margin-left": "7.5%",
+                    "margin-right": "7.5%"
                 })
             }
             $(this).parent().css({
@@ -788,16 +788,16 @@ $(document).ready(function () {
                         "background-color": "#FA425D",
                         "border-radius": "50%",
                         "border": "10px solid #FA425D",
-                        "margin-left": "23px",
-                        "margin-right": "23px"
+                        "margin-left": "5.2%",
+                        "margin-right": "5.2%"
                     })
                 } else {
                     $(this).siblings(".clicked").css({
                         "background-color": "#008491",
                         "border-radius": "50%",
                         "border": "10px solid #008491",
-                        "margin-left": "23px",
-                        "margin-right": "23px"
+                        "margin-left": "5.2%",
+                        "margin-right": "5.2%"
                     })
                     if ($(".star8").hasClass("clicked")) {
                         $(this).parent().css({
@@ -826,8 +826,8 @@ $(document).ready(function () {
                 "background-color": "#008491",
                 "border-radius": "50%",
                 "border": "10px solid #008491",
-                "margin-left": "23px",
-                "margin-right": "23px"
+                "margin-left": "5.2%",
+                "margin-right": "5.2%"
             })
             $(this).parent().css({
                 "background": "linear-gradient(90deg,#FF9D4F 50%,#D7D7D7 0%,#D7D7D7 0%,#D7D7D7 0%)"
@@ -836,8 +836,8 @@ $(document).ready(function () {
                 $(this).siblings(".clicked").css({
                     "border": "none",
                     "background": "none",
-                    "margin-left": "33px",
-                    "margin-right": "33px"
+                    "margin-left": "7.5%",
+                    "margin-right": "7.5%"
                 })
             }
 
@@ -848,8 +848,8 @@ $(document).ready(function () {
                 $(this).css({
                     "background": "none",
                     "border": "none",
-                    "margin-left": "33px",
-                    "margin-right": "33px"
+                    "margin-left": "7.5%",
+                    "margin-right": "7.5%"
                 })
             }
             $(this).parent().css({
@@ -861,16 +861,16 @@ $(document).ready(function () {
                         "background-color": "#FA425D",
                         "border-radius": "50%",
                         "border": "10px solid #FA425D",
-                        "margin-left": "23px",
-                        "margin-right": "23px"
+                        "margin-left": "5.2%",
+                        "margin-right": "5.2%"
                     })
                 } else {
                     $(this).siblings(".clicked").css({
                         "background-color": "#008491",
                         "border-radius": "50%",
                         "border": "10px solid #008491",
-                        "margin-left": "23px",
-                        "margin-right": "23px"
+                        "margin-left": "5.2%",
+                        "margin-right": "5.2%"
                     })
                     if ($(".star7").hasClass("clicked")) {
                         $(this).parent().css({
@@ -899,8 +899,8 @@ $(document).ready(function () {
                 "background-color": "#008491",
                 "border-radius": "50%",
                 "border": "10px solid #008491",
-                "margin-left": "23px",
-                "margin-right": "23px"
+                "margin-left": "5.2%",
+                "margin-right": "5.2%"
 
             })
             $(this).parent().css({
@@ -910,8 +910,8 @@ $(document).ready(function () {
                 $(this).siblings(".clicked").css({
                     "border": "none",
                     "background": "none",
-                    "margin-left": "33px",
-                    "margin-right": "33px"
+                    "margin-left": "7.5%",
+                    "margin-right": "7.5%"
                 })
             }
         }
@@ -921,8 +921,8 @@ $(document).ready(function () {
                 $(this).css({
                     "background": "none",
                     "border": "none",
-                    "margin-left": "33px",
-                    "margin-right": "33px"
+                    "margin-left": "7.5%",
+                    "margin-right": "7.5%"
                 })
             }
             $(this).parent().css({
@@ -934,16 +934,16 @@ $(document).ready(function () {
                         "background-color": "#FA425D",
                         "border-radius": "50%",
                         "border": "10px solid #FA425D",
-                        "margin-left": "23px",
-                        "margin-right": "23px"
+                        "margin-left": "5.2%",
+                        "margin-right": "5.2%"
                     })
                 } else if ($(this).siblings("clicked")) {
                     $(this).siblings(".clicked").css({
                         "background-color": "#008491",
                         "border-radius": "50%",
                         "border": "10px solid #008491",
-                        "margin-left": "23px",
-                        "margin-right": "23px"
+                        "margin-left": "5.2%",
+                        "margin-right": "5.2%"
                     })
                     if ($(".star7").hasClass("clicked")) {
                         $(this).parent().css({
@@ -972,8 +972,8 @@ $(document).ready(function () {
                 "background-color": "#008491",
                 "border-radius": "50%",
                 "border": "10px solid #008491",
-                "margin-left": "23px",
-                "margin-right": "23px"
+                "margin-left": "5.2%",
+                "margin-right": "5.2%"
             })
             $(this).parent().css({
                 "background": "linear-gradient(90deg, #FFE100 100%, #D7D7D7 0%,#D7D7D7 0%,#D7D7D7 0%)"
@@ -982,8 +982,8 @@ $(document).ready(function () {
                 $(this).siblings(".clicked").css({
                     "border": "none",
                     "background": "none",
-                    "margin-left": "33px",
-                    "margin-right": "33px"
+                    "margin-left": "7.5%",
+                    "margin-right": "7.5%"
                 })
             }
 
@@ -994,8 +994,8 @@ $(document).ready(function () {
                 $(this).css({
                     "background": "none",
                     "border": "none",
-                    "margin-left": "33px",
-                    "margin-right": "33px"
+                    "margin-left": "7.5%",
+                    "margin-right": "7.5%"
                 })
             }
             $(this).parent().css({
@@ -1007,16 +1007,16 @@ $(document).ready(function () {
                         "background-color": "#FA425D",
                         "border-radius": "50%",
                         "border": "10px solid #FA425D",
-                        "margin-left": "23px",
-                        "margin-right": "23px"
+                        "margin-left": "5.2%",
+                        "margin-right": "5.2%"
                     })
                 } else {
                     $(this).siblings(".clicked").css({
                         "background-color": "#008491",
                         "border-radius": "50%",
                         "border": "10px solid #008491",
-                        "margin-left": "23px",
-                        "margin-right": "23px"
+                        "margin-left": "5.2%",
+                        "margin-right": "5.2%"
                     })
                     if ($(".star7").hasClass("clicked")) {
                         $(this).parent().css({
@@ -1044,15 +1044,15 @@ $(document).ready(function () {
                 "background-color": "#FA425D",
                 "border-radius": "50%",
                 "border": "10px solid #FA425D",
-                "margin-left": "23px",
-                "margin-right": "23px"
+                "margin-left": "5.2%",
+                "margin-right": "5.2%"
             })
             if ($(this).siblings(".clicked")) {
                 $(this).siblings(".clicked").css({
                     "border": "none",
                     "background": "none",
-                    "margin-left": "33px",
-                    "margin-right": "33px"
+                    "margin-left": "7.5%",
+                    "margin-right": "7.5%"
                 })
                 $(this).parent().css({
                     "background": "#D7D7D7"
@@ -1065,8 +1065,8 @@ $(document).ready(function () {
                 $(this).css({
                     "background": "none",
                     "border": "none",
-                    "margin-left": "33px",
-                    "margin-right": "33px"
+                    "margin-left": "7.5%",
+                    "margin-right": "7.5%"
                 })
             if ($(this).siblings(".clicked") && !$(this).hasClass("clicked")) {
                 if ($(".star1").hasClass("clicked")) {
@@ -1074,16 +1074,16 @@ $(document).ready(function () {
                         "background-color": "#FA425D",
                         "border-radius": "50%",
                         "border": "10px solid #FA425D",
-                        "margin-left": "23px",
-                        "margin-right": "23px"
+                        "margin-left": "5.2%",
+                        "margin-right": "5.2%"
                     })
                 } else {
                     $(this).siblings(".clicked").css({
                         "background-color": "#008491",
                         "border-radius": "50%",
                         "border": "10px solid #008491",
-                        "margin-left": "23px",
-                        "margin-right": "23px"
+                        "margin-left": "5.2%",
+                        "margin-right": "5.2%"
                     })
                     if ($(".star12").hasClass("clicked")) {
                         $(this).parent().css({
@@ -1117,8 +1117,8 @@ $(document).ready(function () {
                 "background-color": "#008491",
                 "border-radius": "50%",
                 "border": "10px solid #008491",
-                "margin-left": "23px",
-                "margin-right": "23px"
+                "margin-left": "5.2%",
+                "margin-right": "5.2%"
             })
             $(this).parent().css({
                 "background": "linear-gradient(90deg, #FF7A65 30%,#D7D7D7 0%,#D7D7D7 0%,#D7D7D7 0%)"
@@ -1127,8 +1127,8 @@ $(document).ready(function () {
                 $(this).siblings(".clicked").css({
                     "border": "none",
                     "background": "none",
-                    "margin-left": "33px",
-                    "margin-right": "33px"
+                    "margin-left": "7.5%",
+                    "margin-right": "7.5%"
                 })
             }
         }
@@ -1138,8 +1138,8 @@ $(document).ready(function () {
                 $(this).css({
                     "background": "none",
                     "border": "none",
-                    "margin-left": "33px",
-                    "margin-right": "33px"
+                    "margin-left": "7.5%",
+                    "margin-right": "7.5%"
                 })
             }
             $(this).parent().css({
@@ -1151,16 +1151,16 @@ $(document).ready(function () {
                         "background-color": "#FA425D",
                         "border-radius": "50%",
                         "border": "10px solid #FA425D",
-                        "margin-left": "23px",
-                        "margin-right": "23px"
+                        "margin-left": "5.2%",
+                        "margin-right": "5.2%"
                     })
                 } else {
                     $(this).siblings(".clicked").css({
                         "background-color": "#008491",
                         "border-radius": "50%",
                         "border": "10px solid #008491",
-                        "margin-left": "23px",
-                        "margin-right": "23px"
+                        "margin-left": "5.2%",
+                        "margin-right": "5.2%"
                     })
                     if ($(".star13").hasClass("clicked")) {
                         $(this).parent().css({
@@ -1189,8 +1189,8 @@ $(document).ready(function () {
                 "background-color": "#008491",
                 "border-radius": "50%",
                 "border": "10px solid #008491",
-                "margin-left": "23px",
-                "margin-right": "23px"
+                "margin-left": "5.2%",
+                "margin-right": "5.2%"
             })
             $(this).parent().css({
                 "background": "linear-gradient(90deg,#FF9D4F 50%,#D7D7D7 0%,#D7D7D7 0%,#D7D7D7 0%)"
@@ -1199,8 +1199,8 @@ $(document).ready(function () {
                 $(this).siblings(".clicked").css({
                     "border": "none",
                     "background": "none",
-                    "margin-left": "33px",
-                    "margin-right": "33px"
+                    "margin-left": "7.5%",
+                    "margin-right": "7.5%"
                 })
             }
 
@@ -1211,8 +1211,8 @@ $(document).ready(function () {
                 $(this).css({
                     "background": "none",
                     "border": "none",
-                    "margin-left": "33px",
-                    "margin-right": "33px"
+                    "margin-left": "7.5%",
+                    "margin-right": "7.5%"
                 })
             }
             $(this).parent().css({
@@ -1224,16 +1224,16 @@ $(document).ready(function () {
                         "background-color": "#FA425D",
                         "border-radius": "50%",
                         "border": "10px solid #FA425D",
-                        "margin-left": "23px",
-                        "margin-right": "23px"
+                        "margin-left": "5.2%",
+                        "margin-right": "5.2%"
                     })
                 } else {
                     $(this).siblings(".clicked").css({
                         "background-color": "#008491",
                         "border-radius": "50%",
                         "border": "10px solid #008491",
-                        "margin-left": "23px",
-                        "margin-right": "23px"
+                        "margin-left": "5.2%",
+                        "margin-right": "5.2%"
                     })
                     if ($(".star12").hasClass("clicked")) {
                         $(this).parent().css({
@@ -1262,8 +1262,8 @@ $(document).ready(function () {
                 "background-color": "#008491",
                 "border-radius": "50%",
                 "border": "10px solid #008491",
-                "margin-left": "23px",
-                "margin-right": "23px"
+                "margin-left": "5.2%",
+                "margin-right": "5.2%"
 
             })
             $(this).parent().css({
@@ -1273,8 +1273,8 @@ $(document).ready(function () {
                 $(this).siblings(".clicked").css({
                     "border": "none",
                     "background": "none",
-                    "margin-left": "33px",
-                    "margin-right": "33px"
+                    "margin-left": "7.5%",
+                    "margin-right": "7.5%"
                 })
             }
         }
@@ -1284,8 +1284,8 @@ $(document).ready(function () {
                 $(this).css({
                     "background": "none",
                     "border": "none",
-                    "margin-left": "33px",
-                    "margin-right": "33px"
+                    "margin-left": "7.5%",
+                    "margin-right": "7.5%"
                 })
             }
             $(this).parent().css({
@@ -1297,16 +1297,16 @@ $(document).ready(function () {
                         "background-color": "#FA425D",
                         "border-radius": "50%",
                         "border": "10px solid #FA425D",
-                        "margin-left": "23px",
-                        "margin-right": "23px"
+                        "margin-left": "5.2%",
+                        "margin-right": "5.2%"
                     })
                 } else if ($(this).siblings("clicked")) {
                     $(this).siblings(".clicked").css({
                         "background-color": "#008491",
                         "border-radius": "50%",
                         "border": "10px solid #008491",
-                        "margin-left": "23px",
-                        "margin-right": "23px"
+                        "margin-left": "5.2%",
+                        "margin-right": "5.2%"
                     })
                     if ($(".star12").hasClass("clicked")) {
                         $(this).parent().css({
@@ -1335,8 +1335,8 @@ $(document).ready(function () {
                 "background-color": "#008491",
                 "border-radius": "50%",
                 "border": "10px solid #008491",
-                "margin-left": "23px",
-                "margin-right": "23px"
+                "margin-left": "5.2%",
+                "margin-right": "5.2%"
             })
             $(this).parent().css({
                 "background": "linear-gradient(90deg, #FFE100 100%, #D7D7D7 0%,#D7D7D7 0%,#D7D7D7 0%)"
@@ -1345,8 +1345,8 @@ $(document).ready(function () {
                 $(this).siblings(".clicked").css({
                     "border": "none",
                     "background": "none",
-                    "margin-left": "33px",
-                    "margin-right": "33px"
+                    "margin-left": "7.5%",
+                    "margin-right": "7.5%"
                 })
             }
 
@@ -1357,8 +1357,8 @@ $(document).ready(function () {
                 $(this).css({
                     "background": "none",
                     "border": "none",
-                    "margin-left": "33px",
-                    "margin-right": "33px"
+                    "margin-left": "7.5%",
+                    "margin-right": "7.5%"
                 })
             }
             $(this).parent().css({
@@ -1370,16 +1370,16 @@ $(document).ready(function () {
                         "background-color": "#FA425D",
                         "border-radius": "50%",
                         "border": "10px solid #FA425D",
-                        "margin-left": "23px",
-                        "margin-right": "23px"
+                        "margin-left": "5.2%",
+                        "margin-right": "5.2%"
                     })
                 } else {
                     $(this).siblings(".clicked").css({
                         "background-color": "#008491",
                         "border-radius": "50%",
                         "border": "10px solid #008491",
-                        "margin-left": "23px",
-                        "margin-right": "23px"
+                        "margin-left": "5.2%",
+                        "margin-right": "5.2%"
                     })
                     if ($(".star12").hasClass("clicked")) {
                         $(this).parent().css({
@@ -1407,15 +1407,15 @@ $(document).ready(function () {
                 "background-color": "#FA425D",
                 "border-radius": "50%",
                 "border": "10px solid #FA425D",
-                "margin-left": "23px",
-                "margin-right": "23px"
+                "margin-left": "5.2%",
+                "margin-right": "5.2%"
             })
             if ($(this).siblings(".clicked")) {
                 $(this).siblings(".clicked").css({
                     "border": "none",
                     "background": "none",
-                    "margin-left": "33px",
-                    "margin-right": "33px"
+                    "margin-left": "7.5%",
+                    "margin-right": "7.5%"
                 })
                 $(this).parent().css({
                     "background": "#D7D7D7"
@@ -1428,8 +1428,8 @@ $(document).ready(function () {
                 $(this).css({
                     "background": "none",
                     "border": "none",
-                    "margin-left": "33px",
-                    "margin-right": "33px"
+                    "margin-left": "7.5%",
+                    "margin-right": "7.5%"
                 })
             if ($(this).siblings(".clicked") && !$(this).hasClass("clicked")) {
                 if ($(".star16").hasClass("clicked")) {
@@ -1437,16 +1437,16 @@ $(document).ready(function () {
                         "background-color": "#FA425D",
                         "border-radius": "50%",
                         "border": "10px solid #FA425D",
-                        "margin-left": "23px",
-                        "margin-right": "23px"
+                        "margin-left": "5.2%",
+                        "margin-right": "5.2%"
                     })
                 } else {
                     $(this).siblings(".clicked").css({
                         "background-color": "#008491",
                         "border-radius": "50%",
                         "border": "10px solid #008491",
-                        "margin-left": "23px",
-                        "margin-right": "23px"
+                        "margin-left": "5.2%",
+                        "margin-right": "5.2%"
                     })
                     if ($(".star17").hasClass("clicked")) {
                         $(this).parent().css({
@@ -1480,8 +1480,8 @@ $(document).ready(function () {
                 "background-color": "#008491",
                 "border-radius": "50%",
                 "border": "10px solid #008491",
-                "margin-left": "23px",
-                "margin-right": "23px"
+                "margin-left": "5.2%",
+                "margin-right": "5.2%"
             })
             $(this).parent().css({
                 "background": "linear-gradient(90deg, #FF7A65 30%,#D7D7D7 0%,#D7D7D7 0%,#D7D7D7 0%)"
@@ -1490,8 +1490,8 @@ $(document).ready(function () {
                 $(this).siblings(".clicked").css({
                     "border": "none",
                     "background": "none",
-                    "margin-left": "33px",
-                    "margin-right": "33px"
+                    "margin-left": "7.5%",
+                    "margin-right": "7.5%"
                 })
             }
         }
@@ -1501,8 +1501,8 @@ $(document).ready(function () {
                 $(this).css({
                     "background": "none",
                     "border": "none",
-                    "margin-left": "33px",
-                    "margin-right": "33px"
+                    "margin-left": "7.5%",
+                    "margin-right": "7.5%"
                 })
             }
             $(this).parent().css({
@@ -1514,16 +1514,16 @@ $(document).ready(function () {
                         "background-color": "#FA425D",
                         "border-radius": "50%",
                         "border": "10px solid #FA425D",
-                        "margin-left": "23px",
-                        "margin-right": "23px"
+                        "margin-left": "5.2%",
+                        "margin-right": "5.2%"
                     })
                 } else {
                     $(this).siblings(".clicked").css({
                         "background-color": "#008491",
                         "border-radius": "50%",
                         "border": "10px solid #008491",
-                        "margin-left": "23px",
-                        "margin-right": "23px"
+                        "margin-left": "5.2%",
+                        "margin-right": "5.2%"
                     })
                     if ($(".star18").hasClass("clicked")) {
                         $(this).parent().css({
@@ -1552,8 +1552,8 @@ $(document).ready(function () {
                 "background-color": "#008491",
                 "border-radius": "50%",
                 "border": "10px solid #008491",
-                "margin-left": "23px",
-                "margin-right": "23px"
+                "margin-left": "5.2%",
+                "margin-right": "5.2%"
             })
             $(this).parent().css({
                 "background": "linear-gradient(90deg,#FF9D4F 50%,#D7D7D7 0%,#D7D7D7 0%,#D7D7D7 0%)"
@@ -1562,8 +1562,8 @@ $(document).ready(function () {
                 $(this).siblings(".clicked").css({
                     "border": "none",
                     "background": "none",
-                    "margin-left": "33px",
-                    "margin-right": "33px"
+                    "margin-left": "7.5%",
+                    "margin-right": "7.5%"
                 })
             }
 
@@ -1574,8 +1574,8 @@ $(document).ready(function () {
                 $(this).css({
                     "background": "none",
                     "border": "none",
-                    "margin-left": "33px",
-                    "margin-right": "33px"
+                    "margin-left": "7.5%",
+                    "margin-right": "7.5%"
                 })
             }
             $(this).parent().css({
@@ -1587,16 +1587,16 @@ $(document).ready(function () {
                         "background-color": "#FA425D",
                         "border-radius": "50%",
                         "border": "10px solid #FA425D",
-                        "margin-left": "23px",
-                        "margin-right": "23px"
+                        "margin-left": "5.2%",
+                        "margin-right": "5.2%"
                     })
                 } else {
                     $(this).siblings(".clicked").css({
                         "background-color": "#008491",
                         "border-radius": "50%",
                         "border": "10px solid #008491",
-                        "margin-left": "23px",
-                        "margin-right": "23px"
+                        "margin-left": "5.2%",
+                        "margin-right": "5.2%"
                     })
                     if ($(".star17").hasClass("clicked")) {
                         $(this).parent().css({
@@ -1625,8 +1625,8 @@ $(document).ready(function () {
                 "background-color": "#008491",
                 "border-radius": "50%",
                 "border": "10px solid #008491",
-                "margin-left": "23px",
-                "margin-right": "23px"
+                "margin-left": "5.2%",
+                "margin-right": "5.2%"
 
             })
             $(this).parent().css({
@@ -1636,8 +1636,8 @@ $(document).ready(function () {
                 $(this).siblings(".clicked").css({
                     "border": "none",
                     "background": "none",
-                    "margin-left": "33px",
-                    "margin-right": "33px"
+                    "margin-left": "7.5%",
+                    "margin-right": "7.5%"
                 })
             }
         }
@@ -1647,8 +1647,8 @@ $(document).ready(function () {
                 $(this).css({
                     "background": "none",
                     "border": "none",
-                    "margin-left": "33px",
-                    "margin-right": "33px"
+                    "margin-left": "7.5%",
+                    "margin-right": "7.5%"
                 })
             }
             $(this).parent().css({
@@ -1660,16 +1660,16 @@ $(document).ready(function () {
                         "background-color": "#FA425D",
                         "border-radius": "50%",
                         "border": "10px solid #FA425D",
-                        "margin-left": "23px",
-                        "margin-right": "23px"
+                        "margin-left": "5.2%",
+                        "margin-right": "5.2%"
                     })
                 } else if ($(this).siblings("clicked")) {
                     $(this).siblings(".clicked").css({
                         "background-color": "#008491",
                         "border-radius": "50%",
                         "border": "10px solid #008491",
-                        "margin-left": "23px",
-                        "margin-right": "23px"
+                        "margin-left": "5.2%",
+                        "margin-right": "5.2%"
                     })
                     if ($(".star17").hasClass("clicked")) {
                         $(this).parent().css({
@@ -1698,8 +1698,8 @@ $(document).ready(function () {
                 "background-color": "#008491",
                 "border-radius": "50%",
                 "border": "10px solid #008491",
-                "margin-left": "23px",
-                "margin-right": "23px"
+                "margin-left": "5.2%",
+                "margin-right": "5.2%"
             })
             $(this).parent().css({
                 "background": "linear-gradient(90deg, #FFE100 100%, #D7D7D7 0%,#D7D7D7 0%,#D7D7D7 0%)"
@@ -1708,8 +1708,8 @@ $(document).ready(function () {
                 $(this).siblings(".clicked").css({
                     "border": "none",
                     "background": "none",
-                    "margin-left": "33px",
-                    "margin-right": "33px"
+                    "margin-left": "7.5%",
+                    "margin-right": "7.5%"
                 })
             }
 
@@ -1720,8 +1720,8 @@ $(document).ready(function () {
                 $(this).css({
                     "background": "none",
                     "border": "none",
-                    "margin-left": "33px",
-                    "margin-right": "33px"
+                    "margin-left": "7.5%",
+                    "margin-right": "7.5%"
                 })
             }
             $(this).parent().css({
@@ -1733,16 +1733,16 @@ $(document).ready(function () {
                         "background-color": "#FA425D",
                         "border-radius": "50%",
                         "border": "10px solid #FA425D",
-                        "margin-left": "23px",
-                        "margin-right": "23px"
+                        "margin-left": "5.2%",
+                        "margin-right": "5.2%"
                     })
                 } else {
                     $(this).siblings(".clicked").css({
                         "background-color": "#008491",
                         "border-radius": "50%",
                         "border": "10px solid #008491",
-                        "margin-left": "23px",
-                        "margin-right": "23px"
+                        "margin-left": "5.2%",
+                        "margin-right": "5.2%"
                     })
                     if ($(".star17").hasClass("clicked")) {
                         $(this).parent().css({
@@ -1770,15 +1770,15 @@ $(document).ready(function () {
                 "background-color": "#FA425D",
                 "border-radius": "50%",
                 "border": "10px solid #FA425D",
-                "margin-left": "23px",
-                "margin-right": "23px"
+                "margin-left": "5.2%",
+                "margin-right": "5.2%"
             })
             if ($(this).siblings(".clicked")) {
                 $(this).siblings(".clicked").css({
                     "border": "none",
                     "background": "none",
-                    "margin-left": "33px",
-                    "margin-right": "33px"
+                    "margin-left": "7.5%",
+                    "margin-right": "7.5%"
                 })
                 $(this).parent().css({
                     "background": "#D7D7D7"
@@ -1791,8 +1791,8 @@ $(document).ready(function () {
                 $(this).css({
                     "background": "none",
                     "border": "none",
-                    "margin-left": "33px",
-                    "margin-right": "33px"
+                    "margin-left": "7.5%",
+                    "margin-right": "7.5%"
                 })
             if ($(this).siblings(".clicked") && !$(this).hasClass("clicked")) {
                 if ($(".star21").hasClass("clicked")) {
@@ -1800,16 +1800,16 @@ $(document).ready(function () {
                         "background-color": "#FA425D",
                         "border-radius": "50%",
                         "border": "10px solid #FA425D",
-                        "margin-left": "23px",
-                        "margin-right": "23px"
+                        "margin-left": "5.2%",
+                        "margin-right": "5.2%"
                     })
                 } else {
                     $(this).siblings(".clicked").css({
                         "background-color": "#008491",
                         "border-radius": "50%",
                         "border": "10px solid #008491",
-                        "margin-left": "23px",
-                        "margin-right": "23px"
+                        "margin-left": "5.2%",
+                        "margin-right": "5.2%"
                     })
                     if ($(".star22").hasClass("clicked")) {
                         $(this).parent().css({
@@ -1843,8 +1843,8 @@ $(document).ready(function () {
                 "background-color": "#008491",
                 "border-radius": "50%",
                 "border": "10px solid #008491",
-                "margin-left": "23px",
-                "margin-right": "23px"
+                "margin-left": "5.2%",
+                "margin-right": "5.2%"
             })
             $(this).parent().css({
                 "background": "linear-gradient(90deg, #FF7A65 30%,#D7D7D7 0%,#D7D7D7 0%,#D7D7D7 0%)"
@@ -1853,8 +1853,8 @@ $(document).ready(function () {
                 $(this).siblings(".clicked").css({
                     "border": "none",
                     "background": "none",
-                    "margin-left": "33px",
-                    "margin-right": "33px"
+                    "margin-left": "7.5%",
+                    "margin-right": "7.5%"
                 })
 
             }
@@ -1865,8 +1865,8 @@ $(document).ready(function () {
                 $(this).css({
                     "background": "none",
                     "border": "none",
-                    "margin-left": "33px",
-                    "margin-right": "33px"
+                    "margin-left": "7.5%",
+                    "margin-right": "7.5%"
                 })
             }
             $(this).parent().css({
@@ -1878,16 +1878,16 @@ $(document).ready(function () {
                         "background-color": "#FA425D",
                         "border-radius": "50%",
                         "border": "10px solid #FA425D",
-                        "margin-left": "23px",
-                        "margin-right": "23px"
+                        "margin-left": "5.2%",
+                        "margin-right": "5.2%"
                     })
                 } else {
                     $(this).siblings(".clicked").css({
                         "background-color": "#008491",
                         "border-radius": "50%",
                         "border": "10px solid #008491",
-                        "margin-left": "23px",
-                        "margin-right": "23px"
+                        "margin-left": "5.2%",
+                        "margin-right": "5.2%"
                     })
                     if ($(".star23").hasClass("clicked")) {
                         $(this).parent().css({
@@ -1916,8 +1916,8 @@ $(document).ready(function () {
                 "background-color": "#008491",
                 "border-radius": "50%",
                 "border": "10px solid #008491",
-                "margin-left": "23px",
-                "margin-right": "23px"
+                "margin-left": "5.2%",
+                "margin-right": "5.2%"
             })
             $(this).parent().css({
                 "background": "linear-gradient(90deg,#FF9D4F 50%,#D7D7D7 0%,#D7D7D7 0%,#D7D7D7 0%)"
@@ -1926,8 +1926,8 @@ $(document).ready(function () {
                 $(this).siblings(".clicked").css({
                     "border": "none",
                     "background": "none",
-                    "margin-left": "33px",
-                    "margin-right": "33px"
+                    "margin-left": "7.5%",
+                    "margin-right": "7.5%"
                 })
             }
 
@@ -1938,8 +1938,8 @@ $(document).ready(function () {
                 $(this).css({
                     "background": "none",
                     "border": "none",
-                    "margin-left": "33px",
-                    "margin-right": "33px"
+                    "margin-left": "7.5%",
+                    "margin-right": "7.5%"
                 })
             }
             $(this).parent().css({
@@ -1951,16 +1951,16 @@ $(document).ready(function () {
                         "background-color": "#FA425D",
                         "border-radius": "50%",
                         "border": "10px solid #FA425D",
-                        "margin-left": "23px",
-                        "margin-right": "23px"
+                        "margin-left": "5.2%",
+                        "margin-right": "5.2%"
                     })
                 } else {
                     $(this).siblings(".clicked").css({
                         "background-color": "#008491",
                         "border-radius": "50%",
                         "border": "10px solid #008491",
-                        "margin-left": "23px",
-                        "margin-right": "23px"
+                        "margin-left": "5.2%",
+                        "margin-right": "5.2%"
                     })
                     if ($(".star22").hasClass("clicked")) {
                         $(this).parent().css({
@@ -1989,8 +1989,8 @@ $(document).ready(function () {
                 "background-color": "#008491",
                 "border-radius": "50%",
                 "border": "10px solid #008491",
-                "margin-left": "23px",
-                "margin-right": "23px"
+                "margin-left": "5.2%",
+                "margin-right": "5.2%"
 
             })
             $(this).parent().css({
@@ -2000,8 +2000,8 @@ $(document).ready(function () {
                 $(this).siblings(".clicked").css({
                     "border": "none",
                     "background": "none",
-                    "margin-left": "33px",
-                    "margin-right": "33px"
+                    "margin-left": "7.5%",
+                    "margin-right": "7.5%"
                 })
             }
         }
@@ -2011,8 +2011,8 @@ $(document).ready(function () {
                 $(this).css({
                     "background": "none",
                     "border": "none",
-                    "margin-left": "33px",
-                    "margin-right": "33px"
+                    "margin-left": "7.5%",
+                    "margin-right": "7.5%"
                 })
             }
             $(this).parent().css({
@@ -2024,16 +2024,16 @@ $(document).ready(function () {
                         "background-color": "#FA425D",
                         "border-radius": "50%",
                         "border": "10px solid #FA425D",
-                        "margin-left": "23px",
-                        "margin-right": "23px"
+                        "margin-left": "5.2%",
+                        "margin-right": "5.2%"
                     })
                 } else if ($(this).siblings("clicked")) {
                     $(this).siblings(".clicked").css({
                         "background-color": "#008491",
                         "border-radius": "50%",
                         "border": "10px solid #008491",
-                        "margin-left": "23px",
-                        "margin-right": "23px"
+                        "margin-left": "5.2%",
+                        "margin-right": "5.2%"
                     })
                     if ($(".star22").hasClass("clicked")) {
                         $(this).parent().css({
@@ -2062,8 +2062,8 @@ $(document).ready(function () {
                 "background-color": "#008491",
                 "border-radius": "50%",
                 "border": "10px solid #008491",
-                "margin-left": "23px",
-                "margin-right": "23px"
+                "margin-left": "5.2%",
+                "margin-right": "5.2%"
             })
             $(this).parent().css({
                 "background": "linear-gradient(90deg, #FFE100 100%, #D7D7D7 0%,#D7D7D7 0%,#D7D7D7 0%)"
@@ -2072,8 +2072,8 @@ $(document).ready(function () {
                 $(this).siblings(".clicked").css({
                     "border": "none",
                     "background": "none",
-                    "margin-left": "33px",
-                    "margin-right": "33px"
+                    "margin-left": "7.5%",
+                    "margin-right": "7.5%"
                 })
             }
 
@@ -2084,8 +2084,8 @@ $(document).ready(function () {
                 $(this).css({
                     "background": "none",
                     "border": "none",
-                    "margin-left": "33px",
-                    "margin-right": "33px"
+                    "margin-left": "7.5%",
+                    "margin-right": "7.5%"
                 })
             }
             $(this).parent().css({
@@ -2097,16 +2097,16 @@ $(document).ready(function () {
                         "background-color": "#FA425D",
                         "border-radius": "50%",
                         "border": "10px solid #FA425D",
-                        "margin-left": "23px",
-                        "margin-right": "23px"
+                        "margin-left": "5.2%",
+                        "margin-right": "5.2%"
                     })
                 } else {
                     $(this).siblings(".clicked").css({
                         "background-color": "#008491",
                         "border-radius": "50%",
                         "border": "10px solid #008491",
-                        "margin-left": "23px",
-                        "margin-right": "23px"
+                        "margin-left": "5.2%",
+                        "margin-right": "5.2%"
                     })
                     if ($(".star22").hasClass("clicked")) {
                         $(this).parent().css({
@@ -2141,8 +2141,8 @@ $(document).ready(function () {
                 "background-color": "#FA425D",
                 "border-radius": "50%",
                 "border": "10px solid #FA425D",
-                "margin-left": "23px",
-                "margin-right": "23px"
+                "margin-left": "5.2%",
+                "margin-right": "5.2%"
             })
             var counter = 0
             $(".questionBox").each(function () {
@@ -2180,8 +2180,8 @@ $(document).ready(function () {
                 "background-color": "#008491",
                 "border-radius": "50%",
                 "border": "10px solid #008491",
-                "margin-left": "23px",
-                "margin-right": "23px"
+                "margin-left": "5.2%",
+                "margin-right": "5.2%"
             })
             $(this).mouseleave(
                 function () {
@@ -2227,8 +2227,8 @@ $(document).ready(function () {
                 "background-color": "#008491",
                 "border-radius": "50%",
                 "border": "10px solid #008491",
-                "margin-left": "23px",
-                "margin-right": "23px"
+                "margin-left": "5.2%",
+                "margin-right": "5.2%"
             })
 
             $(this).mouseleave(
@@ -2280,8 +2280,8 @@ $(document).ready(function () {
                 "background-color": "#008491",
                 "border-radius": "50%",
                 "border": "10px solid #008491",
-                "margin-left": "23px",
-                "margin-right": "23px"
+                "margin-left": "5.2%",
+                "margin-right": "5.2%"
             })
             $(this).mouseleave(
                 function () {
@@ -2326,8 +2326,8 @@ $(document).ready(function () {
                 "background-color": "#008491",
                 "border-radius": "50%",
                 "border": "10px solid #008491",
-                "margin-left": "23px",
-                "margin-right": "23px"
+                "margin-left": "5.2%",
+                "margin-right": "5.2%"
             })
 
             $(this).mouseleave(
@@ -2373,8 +2373,8 @@ $(document).ready(function () {
                 "background-color": "#FA425D",
                 "border-radius": "50%",
                 "border": "10px solid #FA425D",
-                "margin-left": "23px",
-                "margin-right": "23px"
+                "margin-left": "5.2%",
+                "margin-right": "5.2%"
             })
             var counter = 0
             $(".questionBox").each(function () {
@@ -2412,8 +2412,8 @@ $(document).ready(function () {
                 "background-color": "#008491",
                 "border-radius": "50%",
                 "border": "10px solid #008491",
-                "margin-left": "23px",
-                "margin-right": "23px"
+                "margin-left": "5.2%",
+                "margin-right": "5.2%"
             })
             $(this).mouseleave(
                 function () {
@@ -2459,8 +2459,8 @@ $(document).ready(function () {
                 "background-color": "#008491",
                 "border-radius": "50%",
                 "border": "10px solid #008491",
-                "margin-left": "23px",
-                "margin-right": "23px"
+                "margin-left": "5.2%",
+                "margin-right": "5.2%"
             })
 
             $(this).mouseleave(
@@ -2512,8 +2512,8 @@ $(document).ready(function () {
                 "background-color": "#008491",
                 "border-radius": "50%",
                 "border": "10px solid #008491",
-                "margin-left": "23px",
-                "margin-right": "23px"
+                "margin-left": "5.2%",
+                "margin-right": "5.2%"
             })
             $(this).mouseleave(
                 function () {
@@ -2558,8 +2558,8 @@ $(document).ready(function () {
                 "background-color": "#008491",
                 "border-radius": "50%",
                 "border": "10px solid #008491",
-                "margin-left": "23px",
-                "margin-right": "23px"
+                "margin-left": "5.2%",
+                "margin-right": "5.2%"
             })
 
             $(this).mouseleave(
@@ -2605,8 +2605,8 @@ $(document).ready(function () {
                 "background-color": "#FA425D",
                 "border-radius": "50%",
                 "border": "10px solid #FA425D",
-                "margin-left": "23px",
-                "margin-right": "23px"
+                "margin-left": "5.2%",
+                "margin-right": "5.2%"
             })
             var counter = 0
             $(".questionBox").each(function () {
@@ -2644,8 +2644,8 @@ $(document).ready(function () {
                 "background-color": "#008491",
                 "border-radius": "50%",
                 "border": "10px solid #008491",
-                "margin-left": "23px",
-                "margin-right": "23px"
+                "margin-left": "5.2%",
+                "margin-right": "5.2%"
             })
             $(this).mouseleave(
                 function () {
@@ -2691,8 +2691,8 @@ $(document).ready(function () {
                 "background-color": "#008491",
                 "border-radius": "50%",
                 "border": "10px solid #008491",
-                "margin-left": "23px",
-                "margin-right": "23px"
+                "margin-left": "5.2%",
+                "margin-right": "5.2%"
             })
 
             $(this).mouseleave(
@@ -2744,8 +2744,8 @@ $(document).ready(function () {
                 "background-color": "#008491",
                 "border-radius": "50%",
                 "border": "10px solid #008491",
-                "margin-left": "23px",
-                "margin-right": "23px"
+                "margin-left": "5.2%",
+                "margin-right": "5.2%"
             })
             $(this).mouseleave(
                 function () {
@@ -2790,8 +2790,8 @@ $(document).ready(function () {
                 "background-color": "#008491",
                 "border-radius": "50%",
                 "border": "10px solid #008491",
-                "margin-left": "23px",
-                "margin-right": "23px"
+                "margin-left": "5.2%",
+                "margin-right": "5.2%"
             })
 
             $(this).mouseleave(
@@ -2837,8 +2837,8 @@ $(document).ready(function () {
                 "background-color": "#FA425D",
                 "border-radius": "50%",
                 "border": "10px solid #FA425D",
-                "margin-left": "23px",
-                "margin-right": "23px"
+                "margin-left": "5.2%",
+                "margin-right": "5.2%"
             })
             var counter = 0
             $(".questionBox").each(function () {
@@ -2876,8 +2876,8 @@ $(document).ready(function () {
                 "background-color": "#008491",
                 "border-radius": "50%",
                 "border": "10px solid #008491",
-                "margin-left": "23px",
-                "margin-right": "23px"
+                "margin-left": "5.2%",
+                "margin-right": "5.2%"
             })
             $(this).mouseleave(
                 function () {
@@ -2923,8 +2923,8 @@ $(document).ready(function () {
                 "background-color": "#008491",
                 "border-radius": "50%",
                 "border": "10px solid #008491",
-                "margin-left": "23px",
-                "margin-right": "23px"
+                "margin-left": "5.2%",
+                "margin-right": "5.2%"
             })
 
             $(this).mouseleave(
@@ -2976,8 +2976,8 @@ $(document).ready(function () {
                 "background-color": "#008491",
                 "border-radius": "50%",
                 "border": "10px solid #008491",
-                "margin-left": "23px",
-                "margin-right": "23px"
+                "margin-left": "5.2%",
+                "margin-right": "5.2%"
             })
             $(this).mouseleave(
                 function () {
@@ -3022,8 +3022,8 @@ $(document).ready(function () {
                 "background-color": "#008491",
                 "border-radius": "50%",
                 "border": "10px solid #008491",
-                "margin-left": "23px",
-                "margin-right": "23px"
+                "margin-left": "5.2%",
+                "margin-right": "5.2%"
             })
 
             $(this).mouseleave(
@@ -3069,8 +3069,8 @@ $(document).ready(function () {
                 "background-color": "#FA425D",
                 "border-radius": "50%",
                 "border": "10px solid #FA425D",
-                "margin-left": "23px",
-                "margin-right": "23px"
+                "margin-left": "5.2%",
+                "margin-right": "5.2%"
             })
             var counter = 0
             $(".questionBox").each(function () {
@@ -3108,8 +3108,8 @@ $(document).ready(function () {
                 "background-color": "#008491",
                 "border-radius": "50%",
                 "border": "10px solid #008491",
-                "margin-left": "23px",
-                "margin-right": "23px"
+                "margin-left": "5.2%",
+                "margin-right": "5.2%"
             })
             $(this).mouseleave(
                 function () {
@@ -3155,8 +3155,8 @@ $(document).ready(function () {
                 "background-color": "#008491",
                 "border-radius": "50%",
                 "border": "10px solid #008491",
-                "margin-left": "23px",
-                "margin-right": "23px"
+                "margin-left": "5.2%",
+                "margin-right": "5.2%"
             })
 
             $(this).mouseleave(
@@ -3208,8 +3208,8 @@ $(document).ready(function () {
                 "background-color": "#008491",
                 "border-radius": "50%",
                 "border": "10px solid #008491",
-                "margin-left": "23px",
-                "margin-right": "23px"
+                "margin-left": "5.2%",
+                "margin-right": "5.2%"
             })
             $(this).mouseleave(
                 function () {
@@ -3254,8 +3254,8 @@ $(document).ready(function () {
                 "background-color": "#008491",
                 "border-radius": "50%",
                 "border": "10px solid #008491",
-                "margin-left": "23px",
-                "margin-right": "23px"
+                "margin-left": "5.2%",
+                "margin-right": "5.2%"
             })
 
             $(this).mouseleave(
