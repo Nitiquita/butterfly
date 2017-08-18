@@ -4,8 +4,8 @@ const router = express.Router()
 const path = require('path')
 
 
-app.get('/', function(req, res) {
-    if(req.query.v === '5') {
+app.get('/', function (req, res) {
+    if (req.query.v === '5') {
         app.use(express.static('public'))
         res.sendFile(path.join(__dirname, 'public', 'VeryHappy.html'))
     } else if (req.query.v === '4') {
@@ -23,7 +23,11 @@ app.get('/', function(req, res) {
     }
 })
 
+app.get('/thankyou', function (req, res) {
+    app.use(express.static('public'))
+    res.sendFile(path.join(__dirname, 'public', 'ThankYou.html'))
+})
 
 app.listen(3000, function () {
-  console.log('Example app listening on port 3000!')
+    console.log('Example app listening on port 3000!')
 })

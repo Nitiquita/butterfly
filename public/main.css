@@ -59,15 +59,15 @@ textarea {
 
 button {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #00ECD0;
-    border: 2px solid #00ECD0;
+    background-color: #D7D7D7;
+    border: 2px solid #D7D7D7;
     border-radius: 5px;
     margin-top: 40px;
     margin-left: 60px;
     width: 220px;
     height: 60px;
     font-size: 20px;
-    color: white;
+    color: #E4E4E4;
 
 }
 
@@ -135,7 +135,7 @@ button {
     margin-left: 245px;
 }
 
-.star, .star1 {
+.star, .star1, .star6, .star11, .star16, .star21 {
     margin-right: 33px;
     margin-left: 33px;
 }
@@ -159,9 +159,17 @@ button {
     margin-right: 15px 
 }
 
-#suggestion {
+.suggestion {
     width: 400px;
     border: 2px solid #D7D7D7;
+}
+
+.gratitude {
+    font-size: 16px;
+    font-weight: lighter;
+    color: #68696b;
+    padding: 0;
+    margin: 0 0 0 40px;
 }
 
 #mistake {
@@ -298,6 +306,36 @@ button {
 
 #highlight {
     color: #00EFD6;
+}
+
+#thanks {
+    color:#00EFD6;
+    font-size: 24px;
+    margin-left: 40px;
+}
+
+#thankYou {
+    width: 520px;
+    height: 140px;
+    background-color: white;
+    padding-top: 60px; 
+    text-align: left;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 60px; 
+    margin-bottom: 50px;
+
+}
+
+#speakTriangle {
+    float: left;
+    margin-left: 50px;
+    margin-top: 15px;
+    width:0; 
+    border-right:20px solid white; 
+    border-top:15px solid transparent; 
+    border-bottom:15px solid transparent;
+
 }
 
 
