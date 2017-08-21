@@ -1,7 +1,7 @@
 Stack: 
-    ExpressJS
-    HTML 
-    CSS 
+    ExpressJS,
+    HTML, 
+    CSS, 
     jQuery 
 
 To run: 
